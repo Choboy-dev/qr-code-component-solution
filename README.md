@@ -1,90 +1,48 @@
-# Frontend Mentor - QR code component solution
-
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+# QR Code Component Project
 
 ## Overview
 
-Testing my HTML and CSS skills by building a responsive QR code component which leads people to Frontend Mentor when they scan the code. 
+This project is a QR code component designed to improve my front-end skills and test my HTML and CSS knowledge. It allows users to scan a QR code to visit Frontend Mentor and take their coding skills to the next level.
 
-### Screenshot
-
-![](images/screenshot.png)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
-### Built with
+## Technologies Used
 
 - HTML5
 - CSS3
-- Flexbox
+- Google Fonts (Nunito Sans)
 
-### What I learned
+## How I Built This Project
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+### HTML Structure
 
-To see how you can add code snippets, see below:
+The project's HTML structure is quite straightforward. It consists of a single HTML file containing the following key components:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+- **`<div class="white-container">`**: This container holds all the content and is styled as a white box in the center of the page.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- **`<div class="image-container">`**: Within the `.white-container`, there's an image container for displaying the QR code image.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- **`<div class="paragraph-one">`** and **`<div class="paragraph-two">`**: These containers hold the project's main messages.
 
-### Continued development
+### CSS Styling
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+To style the project, I used CSS to define the following key aspects:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- **Box Sizing**: I applied `box-sizing: border-box;` to ensure consistent box-sizing for all elements.
 
-### Useful resources
+- **Body Styles**: I reset the margin and padding on the `body` element and set a background color. I also applied the Nunito Sans font for the entire project.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- **Container Styles**: The `.white-container` was given a fixed width and height, and a white background to create a clean container for the content.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- **Image Styling**: I adjusted the dimensions of the QR code image within the `.white-container`.
 
-## Author
+- **Flexbox for Centering**: To center the `.white-container` on the page both horizontally and vertically, I used flexbox by applying `display: flex; justify-content: center; align-items: center;` to the `body`. This ensures a responsive centering of the content.
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+## Lessons Learned
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+While working on this project, I gained valuable experience in:
 
-## Acknowledgments
+- Structuring HTML for a simple web component.
+- Applying CSS for styling and layout.
+- Using Google Fonts to enhance typography.
+- Centering content both horizontally and vertically with CSS flexbox.
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+This project helped me solidify my front-end development skills and provided a practical opportunity to apply what I've learned.
