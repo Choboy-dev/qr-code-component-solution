@@ -1,48 +1,57 @@
-# QR Code Component Project
+# Frontend Mentor - QR Code Component
 
-## Overview
+This is my submission for the **QR Code Component** challenge from [Frontend Mentor](https://www.frontendmentor.io/). This project is a simple card that displays a QR code, styled with HTML and CSS.
 
-This project is a QR code component designed to improve my front-end skills and test my HTML and CSS knowledge. It allows users to scan a QR code to visit Frontend Mentor and take their coding skills to the next level.
+## 🚀 Live Preview
+You can view the live version of the project by opening `index.html` in a browser or running a local development server.
 
-## Technologies Used
+## 📌 Challenge Overview
+The goal of this challenge was to:
+- Build a QR code component that closely matches the provided design.
+- Use only HTML and CSS (no frameworks or JavaScript required).
+- Ensure a responsive design that works across different screen sizes.
 
+## 🛠️ Technologies Used
 - HTML5
-- CSS3
-- Google Fonts (Nunito Sans)
+- CSS3 (Flexbox for layout)
 
-## How I Built This Project
+## 📂 Project Structure
+```
+qr-code-component-main/
+│── images/
+│   ├── favicon-32x32.png
+│   ├── image-qr-code.png
+│── index.html
+│── styles.css
+│── README.md
+│── .gitignore
+│── preview.jpg
+```
 
-### HTML Structure
+## 🎨 Design Reference
+- The design follows the challenge guidelines from Frontend Mentor.
+- Colors, font sizes, and spacing were matched using the provided `style-guide.md`.
 
-The project's HTML structure is quite straightforward. It consists of a single HTML file containing the following key components:
+## 📖 How to Use
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/Choboy-dev/qr-code-component.git
+   ```
+2. Open `index.html` in a browser.
+3. Alternatively, start a local server (e.g., using VS Code Live Server extension).
 
-- **`<div class="white-container">`**: This container holds all the content and is styled as a white box in the center of the page.
+## ✅ Features
+- Fully responsive design
+- Clean and structured HTML & CSS
+- Uses Google Fonts (Outfit)
+- Subtle box shadow and border-radius for aesthetics
 
-- **`<div class="image-container">`**: Within the `.white-container`, there's an image container for displaying the QR code image.
+## 📜 License
+This project is for learning purposes. Feel free to use and modify it as needed.
 
-- **`<div class="paragraph-one">`** and **`<div class="paragraph-two">`**: These containers hold the project's main messages.
+## ✨ Acknowledgments
+Special thanks to [Frontend Mentor](https://www.frontendmentor.io/) for providing the challenge and design.
 
-### CSS Styling
+---
+🚀 **Happy Coding!** 🎯
 
-To style the project, I used CSS to define the following key aspects:
-
-- **Box Sizing**: I applied `box-sizing: border-box;` to ensure consistent box-sizing for all elements.
-
-- **Body Styles**: I reset the margin and padding on the `body` element and set a background color. I also applied the Nunito Sans font for the entire project.
-
-- **Container Styles**: The `.white-container` was given a fixed width and height, and a white background to create a clean container for the content.
-
-- **Image Styling**: I adjusted the dimensions of the QR code image within the `.white-container`.
-
-- **Flexbox for Centering**: To center the `.white-container` on the page both horizontally and vertically, I used flexbox by applying `display: flex; justify-content: center; align-items: center;` to the `body`. This ensures a responsive centering of the content.
-
-## Lessons Learned
-
-While working on this project, I gained valuable experience in:
-
-- Structuring HTML for a simple web component.
-- Applying CSS for styling and layout.
-- Using Google Fonts to enhance typography.
-- Centering content both horizontally and vertically with CSS flexbox.
-
-This project helped me solidify my front-end development skills and provided a practical opportunity to apply what I've learned.
